@@ -39,6 +39,13 @@ nav a {
   color: #ffffff;
 }
 
+nav a:hover {
+  border: 3px solid skyblue;
+  border-radius: 1.5px;
+  box-shadow: 0px 0px 20px 5px skyblue;
+  transform: scale(1.1);
+}
+
 /*main section*/
 .banner {
   width: 65%;
@@ -54,7 +61,8 @@ nav a {
 
 section {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: center;
   border: 1px solid black;
   margin-top: 5px;
 }
@@ -63,7 +71,14 @@ section {
   border: 1px solid blue;
   width: 200px;
   height: 220px;
-  margin: 1rem 1.3rem;
+  margin: 1rem 1.2rem;
+}
+
+.thumbnail:hover {
+  border: 3px solid skyblue;
+  border-radius: 1.5px;
+  box-shadow: 0px 0px 20px 5px skyblue;
+  transform: scale(1.1);
 }
 
 /* .thumbnail img {
